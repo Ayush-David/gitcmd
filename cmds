@@ -1,0 +1,56 @@
+git config
+Description: Configures Git settings like user name, email, and default branch.
+Usage: git config --global user.name "Ayush-David"
+Example: git config --global user.email "ayushdavid14@gmail.com"
+git push
+Description: Pushes changes from a local branch to a remote repository.
+Usage: git push origin main
+Example: Pushes changes to the main branch on GitHub.
+git commit
+Description: Records changes to the repository with a descriptive message.
+Usage: git commit -m "message"
+Example: Commits changes with the message "message".
+git status
+Description: Shows the status of changes in the working directory.
+Usage: git status
+Example: Displays the current status of the repository.
+git remote
+Description: Manages remote repositories.
+Usage: git remote add origin <link>
+Example: Adds a remote repository with the name origin.
+git pull
+Description: Fetches and merges changes from a remote repository to the local branch.
+Usage: git pull origin main
+Example: Fetches and merges changes from the main branch on the remote repository.
+git branch
+Description: Manages branches in the repository.
+Usage: git branch, git branch -d <branch to delete>
+Example: Lists branches or deletes a specified branch.
+git checkout
+Description: Switches branches or restores working tree files.
+Usage: git checkout <branch name>, git checkout -b <new branch>
+Example: Navigates to a branch or creates a new branch.
+git merge
+Description: Combines changes from one branch into another.
+Usage: git merge <branch name>
+Example: Merges changes from a specified branch into the current branch.
+git remote add
+Description: Adds a new remote repository.
+Usage: git remote add upstream <remoteurl>
+Example: Adds a remote repository with the name upstream.
+git fetch
+Description: Downloads objects and refs from another repository.
+Usage: git fetch upstream
+Example: Fetches changes from the upstream repository.
+git request-pull
+Description: Generates a summary of pending changes to be pulled by another repository.
+Usage: git request-pull <branch> <url>
+Example: Creates a summary of changes in <branch> to be pulled from <url>.
+git submodule
+Description: Manages Git submodules within a repository.
+Usage: git submodule add <url>
+Example: Adds a submodule from the specified <url>.
+git config alias
+Description: Creates an alias for a Git command.
+Usage: git config --global alias.<alias name> <command>
+Example: Sets an alias for a Git command for easier usage.
